@@ -36,6 +36,7 @@
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "@pickra/copy-code-block": "^1.1.7",
     "@storybook/addon-a11y": "^5.1.9",
     "@storybook/addon-knobs": "^5.1.9",
@@ -63,9 +64,13 @@
     "pretty-quick": "^1.11.1",
     "raw-loader": "^3.1.0",
     "style-loader": "^1.0.0",
+    "systemjs-webpack-interop": "^1.1.0",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
 }
